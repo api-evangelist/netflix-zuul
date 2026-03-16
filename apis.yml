@@ -1,0 +1,29 @@
+aid: netflix-zuul
+name: Netflix Zuul
+description: >-
+  Netflix Zuul is an open-source L7 application gateway that provides dynamic
+  routing, monitoring, resiliency, and security for edge services. Originally
+  developed by Netflix, Zuul 2 uses Netty for non-blocking I/O and is commonly
+  used as an API gateway and edge service.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API Gateway
+  - Edge Service
+  - Netflix
+  - Open Source
+url: https://raw.githubusercontent.com/api-evangelist/netflix-zuul/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://github.com/Netflix/zuul
+  - type: GitHub Organization
+    url: https://github.com/Netflix
+  - type: Documentation
+    url: https://github.com/Netflix/zuul/wiki
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
