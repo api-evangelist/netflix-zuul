@@ -29,8 +29,8 @@ apis:
     tags:
       - API Gateway
       - Edge Service
-      - Routing
       - Netty
+      - Routing
     properties:
       - type: Documentation
         url: https://github.com/Netflix/zuul/wiki
@@ -54,10 +54,10 @@ apis:
       and response decoration.
     humanURL: https://github.com/Netflix/zuul/wiki/Filters
     tags:
-      - Filters
       - Extension
-      - Routing
+      - Filters
       - Middleware
+      - Routing
     properties:
       - type: Documentation
         url: https://github.com/Netflix/zuul/wiki/Filters
@@ -76,9 +76,9 @@ apis:
     humanURL: https://github.com/Netflix/zuul/wiki/Push-Messaging
     tags:
       - Push Messaging
-      - WebSocket
-      - Server Sent Events
       - Real Time
+      - Server Sent Events
+      - WebSocket
     properties:
       - type: Documentation
         url: https://github.com/Netflix/zuul/wiki/Push-Messaging
