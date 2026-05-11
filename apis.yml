@@ -103,6 +103,13 @@ common:
     url: https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3
   - type: Stack Overflow
     url: https://stackoverflow.com/questions/tagged/netflix-zuul
+  - type: Integrations
+    url: https://netflixtechblog.com/integrations
+integrations:
+  - name: Doc Burford
+  - name: Natalie Armendariz
+  - name: Olivia Bussey
+  - name: Karla L. Miller
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
