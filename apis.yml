@@ -34,13 +34,13 @@ apis:
     properties:
       - type: Documentation
         url: https://github.com/Netflix/zuul/wiki
-      - type: Getting Started
+      - type: GettingStarted
         url: https://github.com/Netflix/zuul/wiki/Getting-Started-3.0
       - type: Reference
         url: https://github.com/Netflix/zuul/wiki/How-it-Works-3.0
       - type: GitHubRepository
         url: https://github.com/Netflix/zuul
-      - type: Change Log
+      - type: ChangeLog
         url: https://github.com/Netflix/zuul/releases
       - type: Issue Tracker
         url: https://github.com/Netflix/zuul/issues
@@ -87,21 +87,21 @@ apis:
 common:
   - type: Website
     url: https://github.com/Netflix/zuul
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/Netflix
   - type: GitHubRepository
     url: https://github.com/Netflix/zuul
   - type: Documentation
     url: https://github.com/Netflix/zuul/wiki
-  - type: Getting Started
+  - type: GettingStarted
     url: https://github.com/Netflix/zuul/wiki/Getting-Started-3.0
-  - type: Change Log
+  - type: ChangeLog
     url: https://github.com/Netflix/zuul/releases
   - type: Issue Tracker
     url: https://github.com/Netflix/zuul/issues
   - type: Blog
     url: https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3
-  - type: Stack Overflow
+  - type: StackOverflow
     url: https://stackoverflow.com/questions/tagged/netflix-zuul
   - type: Integrations
     url: https://netflixtechblog.com/integrations
