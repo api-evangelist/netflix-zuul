@@ -2,11 +2,11 @@
   "repo": "netflix-zuul",
   "feeds": [
     {
-      "source": "https://netflixtechblog.com/feed/",
-      "feed_url": "https://netflixtechblog.com/feed/",
+      "source": "https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3",
+      "feed_url": "https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "none"
     },
     {
       "source": "https://github.com/Netflix/zuul/issues",
@@ -17,5 +17,5 @@
     }
   ],
   "post_count": 18,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
