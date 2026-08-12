@@ -6,6 +6,18 @@ description: >-
   developed by Netflix, Zuul 2 uses Netty for non-blocking I/O and is commonly
   used as an API gateway and edge service.
 type: Index
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-11'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -97,6 +109,9 @@ apis:
       - type: GitHubRepository
         url: https://github.com/Netflix/zuul
 common:
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/Netflix/zuul/blob/master/LICENSE
   - type: Website
     url: https://github.com/Netflix/zuul
   - type: GitHubOrganization
