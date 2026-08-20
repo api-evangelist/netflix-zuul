@@ -35,6 +35,11 @@ tags:
   - API Gateway
   - Edge Service
   - Netflix
+  - Open-Source
+tags_raw:
+  - API Gateway
+  - Edge Service
+  - Netflix
   - Open Source
 url: https://raw.githubusercontent.com/api-evangelist/netflix-zuul/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -99,6 +104,11 @@ apis:
       Cassandra, or DynamoDB for multi-node clusters.
     humanURL: https://github.com/Netflix/zuul/wiki/Push-Messaging
     tags:
+      - Push Messaging
+      - Real-Time
+      - Server-Sent Events
+      - WebSocket
+    tags_raw:
       - Push Messaging
       - Real Time
       - Server Sent Events
