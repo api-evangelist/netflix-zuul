@@ -106,7 +106,7 @@ apis:
     tags:
       - Push Messaging
       - Real-Time
-      - Server-Sent Events
+      - Server Sent Events
       - WebSocket
     tags_raw:
       - Push Messaging
