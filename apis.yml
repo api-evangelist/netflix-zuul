@@ -113,6 +113,12 @@ apis:
   - type: GettingStarted
     url: https://github.com/Netflix/zuul/wiki/Getting-Started
 common:
+- type: Plans
+  url: plans/netflix-zuul-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/netflix-zuul-rate-limits.yml
+- type: FinOps
+  url: finops/netflix-zuul-finops.yml
 - type: License
   name: Apache-2.0
   url: https://github.com/Netflix/zuul/blob/master/LICENSE
