@@ -1,4 +1,4 @@
-# Netflix Zuul (netflix-zuul)
+# Netflix Zuul
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,89 +66,101 @@
 
 Netflix Zuul is an open-source L7 application gateway that provides dynamic routing, monitoring, resiliency, and security for edge services. Originally developed by Netflix, Zuul 2 uses Netty for non-blocking I/O and is commonly used as an API gateway and edge service.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/netflix-zuul/refs/heads/main/apis.yml)
+**Areas:** API Gateway · Edge Service · Netflix · Open Source
 
-## Scope
+## Netflix Zuul on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for Netflix Zuul is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/netflix-zuul/](https://apis.io/providers/netflix-zuul/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (4)
 
- - API Gateway, Edge Service, Netflix, Open Source
+- [Netflix Zuul Gateway](https://apis.io/apis/netflix-zuul/netflix-zuul-gateway/) — Netflix Zuul is an L7 application gateway built on Netty that provides dynamic routing, load balancing, authentication, monitoring, and resiliency for edge…
+- [Netflix Zuul Filters API](https://apis.io/apis/netflix-zuul/netflix-zuul-filters-api/) — The Zuul Filters API provides the core extension point for building custom logic into the Zuul gateway pipeline. Developers implement inbound, endpoint, and…
+- [Netflix Zuul Push Messaging](https://apis.io/apis/netflix-zuul/netflix-zuul-push-messaging/) — Zuul Push Messaging enables server-to-client push communications over WebSockets and Server Sent Events (SSE). It provides a PushConnectionRegistry for…
+- [Netflix Zuul](https://apis.io/apis/netflix-zuul/zuul/) — Netflix Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, and security.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Plans and pricing (1)
 
-### Netflix Zuul Gateway
-Netflix Zuul is an L7 application gateway built on Netty that provides dynamic routing, load balancing, authentication, monitoring, and resiliency for edge services. Zuul 3.x is the current release, supporting inbound, endpoint, and outbound filter pipelines for intercepting and modifying HTTP requests and responses at the edge.
+Published plans, tiers and prices.
 
-**Human URL:** [https://github.com/Netflix/zuul](https://github.com/Netflix/zuul)
+- [Netflix Zuul Plans Pricing](https://apis.io/plans/netflix-zuul/netflix-zuul-plans-pricing/)
 
+#### Rate limits (1)
 
-#### Tags:
+Published request limits.
 
- - API Gateway, Edge Service, Routing, Netty
+- [Netflix Zuul Rate Limits](https://apis.io/rate-limits/netflix-zuul/netflix-zuul-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://github.com/Netflix/zuul/wiki)
-- [Getting Started](https://github.com/Netflix/zuul/wiki/Getting-Started-3.0)
-- [Reference](https://github.com/Netflix/zuul/wiki/How-it-Works-3.0)
-- [GitHubRepository](https://github.com/Netflix/zuul)
-- [Change Log](https://github.com/Netflix/zuul/releases)
-- [Issue Tracker](https://github.com/Netflix/zuul/issues)
+What the API costs to run, by operation.
 
-### Netflix Zuul Filters API
-The Zuul Filters API provides the core extension point for building custom logic into the Zuul gateway pipeline. Developers implement inbound, endpoint, and outbound filters using synchronous or asynchronous base classes to handle authentication, routing, rate limiting, metrics, and response decoration.
+- [Netflix Zuul Finops](https://apis.io/finops/netflix-zuul/netflix-zuul-finops/)
 
-**Human URL:** [https://github.com/Netflix/zuul/wiki/Filters](https://github.com/Netflix/zuul/wiki/Filters)
+## Where to find this API
 
-
-#### Tags:
-
- - Filters, Extension, Routing, Middleware
-
-#### Properties
-
-- [Documentation](https://github.com/Netflix/zuul/wiki/Filters)
-- [Reference](https://github.com/Netflix/zuul/wiki/Writing-Filters)
-- [GitHubRepository](https://github.com/Netflix/zuul)
-
-### Netflix Zuul Push Messaging
-Zuul Push Messaging enables server-to-client push communications over WebSockets and Server Sent Events (SSE). It provides a PushConnectionRegistry for managing connected clients and supports distributed deployments using external datastores such as Redis, Cassandra, or DynamoDB for multi-node clusters.
-
-**Human URL:** [https://github.com/Netflix/zuul/wiki/Push-Messaging](https://github.com/Netflix/zuul/wiki/Push-Messaging)
-
-
-#### Tags:
-
- - Push Messaging, WebSocket, Server Sent Events, Real Time
-
-#### Properties
-
-- [Documentation](https://github.com/Netflix/zuul/wiki/Push-Messaging)
-- [GitHubRepository](https://github.com/Netflix/zuul)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://github.com/Netflix/zuul)
-- [GitHub Organization](https://github.com/Netflix)
-- [GitHubRepository](https://github.com/Netflix/zuul)
 - [Documentation](https://github.com/Netflix/zuul/wiki)
-- [Getting Started](https://github.com/Netflix/zuul/wiki/Getting-Started-3.0)
-- [Change Log](https://github.com/Netflix/zuul/releases)
-- [Issue Tracker](https://github.com/Netflix/zuul/issues)
+- [Getting started](https://github.com/Netflix/zuul/wiki/Getting-Started-3.0)
+- [Changelog](https://github.com/Netflix/zuul/releases)
 - [Blog](https://netflixtechblog.com/open-sourcing-zuul-2-82ea476cb2b3)
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/netflix-zuul)
+- [GitHub](https://github.com/Netflix)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 14.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/netflix-zuul/](https://apis.io/providers/netflix-zuul/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Netflix Zuul: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/netflix-zuul/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
